@@ -22,7 +22,7 @@ export type AiAnalyzeResult = {
   suggestions: string[];
 };
 
-const AI_ANALYZE_URL = 'http://localhost:8080/api/ai';
+const AI_ANALYZE_URL = '/api/ai';
 
 export async function analyzeDevices(payload: AnalyzeDevicesPayload): Promise<AiAnalyzeResult> {
   const response = await fetch(AI_ANALYZE_URL, {
