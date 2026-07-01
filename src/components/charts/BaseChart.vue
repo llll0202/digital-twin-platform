@@ -12,6 +12,7 @@ const defaultOption = {
     // color: '#4E5969',
     fontSize: 12,
   },
+  //标题设置
   title: {
     padding: 5,
     left: 0,
